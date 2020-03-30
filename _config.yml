@@ -1,3 +1,4 @@
-theme: jekyll-theme-midnight
-title: Cramer McGarr
-description: This is my blog to document the trials and tribulations of my cyber journey.
+theme:        jekyll-theme-midnight
+title:        Cramer McGarr
+description:  This is my blog to document the trials and tribulations of my cyber journey.
+linkedin:     "cramer-mcgarr/"
