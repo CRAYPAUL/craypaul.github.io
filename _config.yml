@@ -104,32 +104,28 @@ analytics:
 
 # Site Author
 author:
-  name             : "Connor McGarr"
+  name             : "Cramer McGarr"
   avatar           : "/assets/images.jpeg"
-  bio              : "OSCP. OSCE. Just another red teamer. Security through obscurity, am I right?!"
+  bio              : "OSWP | This is blog is for my trials and tribulations of learning about web application security."
   location         : "United States"
-  linkedin	       : "connor-mcgarr-7522a6152/"
-  twitter          : "33y0re"
+  linkedin	       : "cramer-mcgarr/"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:connormcgarr7@gmail.com
+      url: mailto:cramermcgarr@gmail.com
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/connormcgarr"
+      url: "https://github.com/CRAYPAUL"
 # Site Footer
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/connormcgarr"
+      url: "https://github.com/CRAYPAUL"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
-      url: "http://linkedin.com/in/connor-mcgarr-7522a6152/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter"
-      url: "https://twitter.com/33y0re"
+      url: "http://linkedin.com/in/cramer-mcgarr/"
 
 
 # Reading Files
