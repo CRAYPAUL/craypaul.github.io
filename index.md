@@ -1,4 +1,4 @@
-### Markdown
+### Welcome! This is my blog to document the trials and tribulations of my cyber journey.
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
