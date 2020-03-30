@@ -1,5 +1,6 @@
 ### Welcome!
-
+![Image](https://github.com/CRAYPAUL/craypaul.github.io/blob/master/img/avatar.png)
+ 
 ```markdown
 Syntax highlighted code block
 
