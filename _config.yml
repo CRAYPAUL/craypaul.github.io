@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Cramer McGarr"
-  avatar           : "/assets/ColombusMeme.jpg"
+  avatar           : "/assets/PhilSwift.jpg"
   bio              : "OSWP | This is blog is for my trials and tribulations of learning about web application security."
   location         : "United States"
   linkedin	       : "cramer-mcgarr/"
