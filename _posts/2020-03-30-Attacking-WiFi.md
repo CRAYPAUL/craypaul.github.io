@@ -2,7 +2,7 @@
 title:  "Attacking Wireless Networks: The Road to Achieving True WiFu Part 1"
 date:   2020-03-30
 tags: [posts]
-excerpt: "History of Main Wireless Protocols and Encryption Methods"
+excerpt: "Setting the Stage for Attacking Wireless Networks"
 ---
 ## Introduction
 Being my first post on GitHub, I was nervous about how to approach this topic. I was very eager to dive into how to attack certain networks, how to utilize tools, but before I even started typing I read a blog post similar to mine. While reading parts of it I was definitely impressed with how this person described how wireless internets worked. However, once I was reading the portion of this person showing off how he attacked the network, I kept asking myself this: _does this person REALLY understand what is going on during the attacks?_ Sure, it's clear this person was about to use the attacks correctly, but when the post presents terms such as 'fragmentation attack', 'ARP request replay attack', 'fake authentication attack', there is no clear explanation of what these techniques do or why they are essential to the process of successfully attacking a network. Here I will do my best to break down every part of my journey of achieving true WiFu!
