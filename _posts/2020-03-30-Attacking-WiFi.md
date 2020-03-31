@@ -16,7 +16,7 @@ It is essnential to have a good knowledge-base of networks, their security, and 
     - DSSS is a technique used to reduce overall signal interference by making the transmitted signal wider in bandwidth than the information bandwidth. With DSSS, the message bits are modulated by a "random" bit sequence. This resulted in some of the following benefits: resistance to jamming and sharing of a single channel among several users. 
     - FHSS is another transmitting technique that rapidly changed the carrier freqency among certain frequencies resulting in it occupying a large spectral band. Since these frequency changes are in a code only known to the transmitter and reciever, FHSS has the advantage of avoiding interference by hopping to different bands and it is more difficult to intercept since the hopping-pattern is not known.  More can be read about these specific modulations on their respective links.
   
-  - __802.11b:__  This IEEE protocol was released in 1999 uses DSSS modulation like its predecessor, but also implented Complementary Code Keying (CCK) coding, while providing rates of 5-11Mbit/s on the 2.4GHz band. This band was divided into 14 overlapping channels, which can be seen in the following figure:
+  - __802.11b:__  This IEEE protocol was released in 1999 uses DSSS modulation like its predecessor, but also implented [Complementary Code Keying (CCK)](https://en.wikipedia.org/wiki/Complementary_code_keying) coding, while providing rates of 5-11Mbit/s on the 2.4GHz band. CCK was able to get faster transfer rates from 2Mbit/s, but at the cost of range. This band was divided into 14 overlapping channels, which can be seen in the following figure:
   
 ![802.11b frequency](http://seth.mattinen.org/images/80211bchannels.gif)
 
