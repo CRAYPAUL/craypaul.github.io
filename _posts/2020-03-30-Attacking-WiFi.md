@@ -1,5 +1,5 @@
 ---
-title:  "Attacking Wireless Networks: The Road to Achieving True WiFu Part 1"
+title:  "Attacking Wireless Networks: The Road to Achieving True WiFu - Part 1"
 date:   2020-03-30
 tags: [posts]
 excerpt: "Setting the Stage for Attacking Wireless Networks"
