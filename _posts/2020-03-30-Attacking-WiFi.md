@@ -53,4 +53,4 @@ Like I said before, the information shown isn't _vital_ to initiate wireless att
   
 To break this information down a bit, WEP was replaced because of how fast the key could be cracked, in come cases it could be cracked in under a minute. WPA/WPA2 encryption is much more powerful thanks to its AES algorithm, which means on Pre-Shared Key Authentication, realistically our only option is going to be brute forcing the passphrase. Unfortunately this level of protection gives people a false sense of security and they either use the default passphrase or a weak one. WPA3 can aim to mitigate these passphrase weakness, but is still relatively new. I will not be demonstrating any attacks on WPA3 or on WPA2 with Enterprise mode. 
 
-In Part 2, I will demonstrate how one can achieve WiFu and attack certain wireless networks.
+In Part 2, I will demonstrate ways to attack wireless networks with the help of our trusty wireless auditing tools: __airgeddon__ :)
