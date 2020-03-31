@@ -41,7 +41,11 @@ Like I said before, the information shown isn't _vital_ to initiate wireless att
   
   - __WiFi Protected Access 2 (WPA2):__   WPA2 was created at the same time as WPA1, but took much longer to creates its encryption protocol: CBC-MAC (CCMP), which is an AES alorithm. Since 2006, any new device is required to use the WPA2 certification. The authentication process is given a name called 4-way handshake, which I will discuss further on. Both WPA1 and WPA2 have 2 variants: WPA Personal & WPA Enterprise. 
     - WPA Personal uses a passphrase shared by everyone on the network, called [Pre-Shared Key Authencation (WPA-PSK)](https://en.wikipedia.org/wiki/Pre-shared_key), which is more than likely the authentication method your home network uses. 
-    - WPA Enterprise uses 802.1x with a radius server for an authentication authority.
+    - WPA Enterprise uses 802.1x with a radius server for an authentication authority. 802.1x involves 3 parties: a client, an authenticator, and a authentication server. A client (usually referred to as a 'supplicant' for the software running on the client that provides the credentials to the authenticator) wants to attach to a LAN or WLAN on the network. The authenticator, wish sits in the middle of a client connecting and the trusted authentication server, waits for the authenticated server to allow or deny the client. The authenticator essentially 'guards' the client from the server until the server can validate the credentials of the supplicant. Here is an image to clarify:
+    
+    ![802.1x Authentication](https://upload.wikimedia.org/wikipedia/commons/1/1f/802.1X_wired_protocols.png)
+    
+    (source: Arran Cudbard-Bell 'Arr2036')
     
   - __WiFi Protection Access 3 (WPA3):__ WPA3 is a relatively new encryption method that has been released. Thanks to the AES alorgithm, the WPA2 key was very difficult to crack. This made the weakness the PSK passphrase that I explained previously. Not only does WPA3 aim to mitigate this weakness, and takes a step up in its Enterprise mode with a 192-bit cryptographic strength standard (AES-256 and SHA-384). Personal Mode still uses the AES-128 standard for encrpytion however. Back to the passphrase, WPA3 replaces the PSK key with a new Simultaneous Authentication of Equals (SAE) authentication method. 
     - The WiFi alliance has stated the new autentication method, SAE, is [resistant to passive and active attacks, as well as dictionary attacks.](https://ieeexplore.ieee.org/document/4622764)
