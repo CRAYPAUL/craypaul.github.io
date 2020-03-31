@@ -30,7 +30,7 @@ It is essnential to have a good knowledge-base of networks, their security, and 
   
   - __802.11ac:__  Even though the newest protocol to be released for wireless is 802.11ax (WiFi 6), this is the protocol most frequently used by home routers and many business still. This is due to WiFi 6 still being a very new protocol. Some of the new features this protocol impelements is the doubling of its MIMO to 8 antennas and it's new modulation technique [(256-QAM modulation)](https://en.wikipedia.org/wiki/Quadrature_amplitude_modulation). 802.11ac is also fully backwards-compatible, so if you are lazy like me and still have a 802.11n dongle in your computer, this is a nice feature.
   
-## Wireless Encrpytion
+## Wireless Encrpytion and Authentication
 Like I said before, the information shown isn't _vital_ to initiate wireless attacks. But if you are like me, it's neat to see how far wireless technology has come along! Now to the security portion of wireless networks, and the different encrpytion methods: 
 
   - __Wireless Equivalent Privacy (WEP):__   WEP was created right alongside the legacy 802.11 protocol, which gave similar privacy to wired networks. There are 2 types of WEP authentication methods; Open Authentication and Shared-Key Authentication (SKA). 
