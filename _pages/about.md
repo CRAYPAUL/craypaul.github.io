@@ -3,4 +3,4 @@ title: "About"
 permalink: /about/
 ---
 
-Red teamer by trade. Exploit development. Feel free to email me with any questions/comments/corrections!
+Have some experience in auditing wireless networks, but I got a taste of web application security and haven't looked back. Email me or message me if you have any questions or ideas!!
