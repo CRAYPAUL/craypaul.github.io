@@ -9,6 +9,10 @@ Being my first post on GitHub, I was nervous about how to approach this topic. I
 
 __NOTE__ - _This post is only for the sake of learning and should not be used on any network without permission or being in a lab setup. Part 1 is also going to be mainly background information so if you are familiar with the IEEE 802.11 protocols and amendents along with the different encryption and authentication methods, feel free to skip to Part 2._
 
+![airgeddon](https://img.wonderhowto.com/img/74/85/63658231387182/0/hack-wi-fi-stealing-wi-fi-passwords-with-evil-twin-attack.w1456.jpg)
+
+_(source: v1s1t0r, airgeddon developer. This will be our very handy "Swiss army knife" network auditing tool)_ 
+
 ## Background Information
 It is essnential to have a good knowledge-base of networks, their security, and some more before being able to implement attacks on one. While this information can seem daunting, I consider it very important to understand how wireless protocol has evolved over it's lifetime. Let's start with a timeline some of the main wireless protocols:
 
