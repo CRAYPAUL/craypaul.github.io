@@ -23,7 +23,7 @@ It is essnential to have a good knowledge-base of networks, their security, and 
   
   - __802.11b:__  This IEEE protocol was released in 1999 uses DSSS modulation like its predecessor, but also implented [Complementary Code Keying (CCK)](https://en.wikipedia.org/wiki/Complementary_code_keying) coding, while providing rates of 5-11Mbit/s on the 2.4GHz band. CCK was able to get faster transfer rates from 2Mbit/s, but at the cost of range. This band was divided into 14 overlapping channels, which can be seen in the following figure:
   
-    ![802.11b frequency](https://github.com/CRAYPAUL/craypaul.github.io/blob/master/assets/80211bchannels.gif)
+    ![802.11b frequency](http://seth.mattinen.org/images/80211bchannels.gif)
 
     _(source: http://seth.mattinen.org/images/80211bchannels.gif)_
  
