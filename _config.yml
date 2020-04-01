@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Home"
+title                    : "Blog Home"
 title_separator          : "|"
 name                     : "CRAYPAUL's Blog"
 description              : ""
