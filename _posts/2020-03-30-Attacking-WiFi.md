@@ -13,6 +13,7 @@ __NOTE__ - _This post is only for the sake of learning and should not be used on
 
 _(source: v1s1t0r, airgeddon developer. This will be our very handy "Swiss army knife" network auditing tool)_ 
 
+
 ## Background Information
 It is essnential to have a good knowledge-base of networks, their security, and some more before being able to implement attacks on one. While this information can seem daunting, I consider it very important to understand how wireless protocol has evolved over it's lifetime. Let's start with a timeline some of the main wireless protocols:
 
@@ -33,7 +34,8 @@ _(source: http://seth.mattinen.org/images/80211bchannels.gif)_
   - __802.11n:__  This protocol took about 5 years to develop when the idea was introduced in 2004. Aiming to increase the range and speed of both the 2.4GHz and 5GHz networks, the 2 original proposals could reach speeds up to 74Mbit/s and 300Mbit/s. When it was finally release in 2009, the 802.11n protocol could reach a whopping 600Mbit/s thanks to its unique setup of multiple dedicated antennas (called [Multiple-Input Multiple Output(MIMO)](https://en.wikipedia.org/wiki/MIMO)). It also utilized the strange feature of radio waves bouncing off walls and doors, and coupled with up to 4 anntenas being used simulateonusly, significantly increased transfer rates.
   
   - __802.11ac:__  Even though the newest protocol to be released for wireless is 802.11ax (WiFi 6), this is the protocol most frequently used by home routers and many business still. This is due to WiFi 6 still being a very new protocol. Some of the new features this protocol impelements is the doubling of its MIMO to 8 antennas and it's new modulation technique [(256-QAM modulation)](https://en.wikipedia.org/wiki/Quadrature_amplitude_modulation). 802.11ac is also fully backwards-compatible, so if you are lazy like me and still have a 802.11n dongle in your computer, this is a nice feature.
-  
+ 
+ 
 ## Wireless Encrpytion and Authentication
 Like I said before, the information shown isn't _vital_ to initiate wireless attacks. But if you are like me, it's neat to see how far wireless technology has come along! Now to the security portion of wireless networks, and the different encrpytion methods: 
 
@@ -57,4 +59,9 @@ Like I said before, the information shown isn't _vital_ to initiate wireless att
   
 To break this information down a bit, WEP was replaced because of how fast the key could be cracked, in come cases it could be cracked in under a minute. WPA/WPA2 encryption is much more powerful thanks to its AES algorithm, which means on Pre-Shared Key Authentication, realistically our only option is going to be brute forcing the passphrase. Unfortunately this level of protection gives people a false sense of security and they either use the default passphrase or a weak one. WPA3 can aim to mitigate these passphrase weakness, but is still relatively new. I will not be demonstrating any attacks on WPA3 or on WPA2 with Enterprise mode. 
 
-In Part 2, I will demonstrate ways to attack wireless networks with the help of our trusty wireless auditing tools from airgeddon!
+
+## Before Attacking Wireless Networks
+Before we move over to part 2, I would like to once agiain say this: __this post is meant for insight on auditing wireless networks and is NOT intended for malicious use.__ There are plenty of WiFi connections out there and most of the can indeed be attacked in the following says, mainly due to the norm of most home networks using WPA2 with PSK, my own home network included. I will try to do my best when explaining some of the following:
+  - Identifying Encryption Methods & Authentication
+  - What tools to use from the airgeddon pack
+  - What purpose those tools serve
