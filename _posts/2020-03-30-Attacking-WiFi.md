@@ -2,7 +2,7 @@
 title:  "Auditing Wireless Networks - Part 1"
 date:   2020-03-30
 tags: [posts]
-excerpt: "Setting the Stage for Attacking WiFi"
+excerpt: "Setting the Stage for Attacking Networks by Learning Wireless History and its Security"
 ---
 ## Introduction
 Being my first post on GitHub, I was nervous about how to approach this topic. I was very eager to dive into how to attack certain networks, how to utilize certain tools, etc.; but before I even started typing, I read a blog post also about how to break into wireless networks. While reading parts of it, I was definitely impressed with how this person described how wireless networks worked. However, once I was reading the portion of this person showing off how they attacked the network, I kept asking myself this: _does this person REALLY understand what is going on during the attacks?_ Sure, it's clear this person was able to use the attacks correctly, but when the post presents terms such as 'fragmentation attack', 'ARP request replay attack', 'fake authentication attack', there is no clear explanation of what these techniques do or why they are essential to the process of successfully attacking a network. Here I will do my best to break down every part of this journey into attacking and breaking WiFi!
