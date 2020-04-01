@@ -23,9 +23,9 @@ It is essnential to have a good knowledge-base of networks, their security, and 
   
   - __802.11b:__  This IEEE protocol was released in 1999 uses DSSS modulation like its predecessor, but also implented [Complementary Code Keying (CCK)](https://en.wikipedia.org/wiki/Complementary_code_keying) coding, while providing rates of 5-11Mbit/s on the 2.4GHz band. CCK was able to get faster transfer rates from 2Mbit/s, but at the cost of range. This band was divided into 14 overlapping channels, which can be seen in the following figure:
   
-  ![802.11b frequency](http://seth.mattinen.org/images/80211bchannels.gif)
+    ![802.11b frequency](http://seth.mattinen.org/images/80211bchannels.gif)
 
-  _(source: http://seth.mattinen.org/images/80211bchannels.gif)_
+    _(source: http://seth.mattinen.org/images/80211bchannels.gif)_
  
   - __802.11a:__  Also released in 1999, The 802.11a protocol was very expensive to implement with the current hardware and ended up not having sucess, but did introduce a new concept for networks: using the 5GHz band. The 2.4GHz band is very crowded with almost every wireless device using it (bluetooth, wireless phones, even microwave ovens use the 2.4GHz band!), along with several more channel options on the 5GHz band gave this protocol more serious advantages over its predecessors. It also introduced [Orthogonal Frequency-Division Modulation (OFDM)](https://en.wikipedia.org/wiki/Orthogonal_frequency-division_multiplexing) modulation and could give transfer rates of up to 54Mbit/s.
   
